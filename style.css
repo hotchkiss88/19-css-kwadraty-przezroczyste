@@ -1,0 +1,44 @@
+:root {
+    --crl-primery-100: #f5f5dd;
+    --crl-primery-900: rgba(0, 0, 0, 1);
+    --crl-primery-750: rgba(0, 0, 0, .75);
+    --crl-primery-500: rgba(0, 0, 0, .5);
+    --crl-primery-250: rgba(0, 0, 0, .25);
+}
+
+body {
+    display: flex;
+}
+
+#container {
+    background-color: var(--crl-primery-100);
+    height: 749px;
+    width: 522px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+div {
+    height: 150px;
+    width: 150px;
+    margin: 10px 100px 10px 100px;
+}
+
+.theDarkest {
+    background-color: var(--crl-primery-900);
+}
+
+.Darker {
+    background-color: var(--crl-primery-750);
+}
+
+.Dark {
+    background-color: var(--crl-primery-500);
+}
+
+.NoDark {
+    background-color: var(--crl-primery-250);
+}
